@@ -1,0 +1,22 @@
+#card-area {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+#card-area > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid red;
+
+  flex-basis: 30%;
+  margin: 0 1% 1% 0;
+  height: 150px;
+}
+
+div > button {
+  height: 25px;
+  width: 30%;
+}
